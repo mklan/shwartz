@@ -45,7 +45,7 @@ fn main() {
     // Limit to max 1 fps update rate
     window.limit_update_rate(Some(std::time::Duration::from_millis(1000)));
 
-    while window.is_open() && !window.is_key_down(Key::Escape) {
+    while window.is_open() {
         for y in 0..args.height {
             for x in 0..args.width {
                 let index = y * args.width + x;
