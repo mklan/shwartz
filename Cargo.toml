@@ -1,0 +1,15 @@
+[package]
+name = "shwartz"
+version = "0.1.0"
+license = "GNU GENERAL PUBLIC LICENSE Version 3"
+authors = ["Matthias Klan <mklan@pm.me>"]
+description = "Overlay to black out pixels on an OLED display"
+keywords = ["windowing", "window", "framebuffer", "oled"]
+categories = ["rendering"]
+repository = "https://github.com/mklan/shwartz"
+edition = "2021"
+readme = "README.md"
+
+[dependencies]
+clap = { version = "4.5.4", features = ["derive"] }
+minifb = "0.25.0"
