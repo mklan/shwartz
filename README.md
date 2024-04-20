@@ -29,7 +29,9 @@ Furthermore you need to tell your window manager how to handle shwartz windows. 
 
 Full overlay
 
-`hyprctl dispatch exec "[float;pin;nofocus;noblur;noborder;nodim;noanim;fakefullscreen]" /path/to/bin/shwartz`
+```bash
+hyprctl dispatch exec "[float;pin;nofocus;noblur;noborder;nodim;noanim;fakefullscreen]" /path/to/bin/shwartz
+```
 
 Kill it on demand with
 
@@ -37,4 +39,6 @@ Kill it on demand with
 
 Cover only a part (for example a bar or dock)
 
-`hyprctl dispatch exec "[float;pin;nofocus;noblur;noborder;nodim;noanim;fakefullscreen;move 0 0]" "/path/to/bin/shwartz --height 30 --every 3"`
+```bash
+hyprctl dispatch exec "[float;pin;nofocus;noblur;noborder;nodim;noanim;fakefullscreen;move 0 0]" "/path/to/bin/shwartz --height 30 --every 3"
+```
