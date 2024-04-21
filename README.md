@@ -6,6 +6,8 @@ It is cross-platform but only tested on wayland.
 
 ![Preview](https://github.com/mklan/shwartz/blob/main/preview.png?raw=true)
 
+(You may have to zoom into the image to properly see the checker board) 
+
 ## Build
 
 `cargo build --release`
