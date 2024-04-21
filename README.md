@@ -2,7 +2,7 @@
 
 An overlay to black out pixels on an OLED display. The goal is to reduce energy consumption. Can be of course also used on other panels, but with less effect.
 
-It is cross-platform but only tested on wayland.
+It is cross-platform but only tested on Wayland.
 
 ![Preview](https://github.com/mklan/shwartz/blob/main/preview.png?raw=true)
 
